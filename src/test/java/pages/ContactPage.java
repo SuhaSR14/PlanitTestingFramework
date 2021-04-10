@@ -50,6 +50,7 @@ public class ContactPage extends BasePage{
 
 	// Actions to be performed in Contact Page
 
+
 	//Validates the mandatory field error messages
 	public void validateContactPage() throws InterruptedException 
 	{
@@ -81,10 +82,14 @@ public class ContactPage extends BasePage{
 		txtEmail.sendKeys("Test@Example.com");
 		txtMessage.sendKeys("Hello");
 		btnSubmit.click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
+		if (waitElement(driver,By.xpath("//strong[@class='ng-binding']"),20).isDisplayed()== true)
+		{
+			System.out.println("Submission is successful");	
+	
+		}
 
 		Assert.assertTrue(submitMessage.isDisplayed()== true,"Submission is not successful");
-		System.out.println("Submission is successful");	
 		
 	}
 	
@@ -98,6 +103,5 @@ public class ContactPage extends BasePage{
 		Assert.assertTrue(invEmail.isDisplayed()==true, "Invalid data validation is not done");
 		
 		System.out.println("Invalid data validated");
-		Thread.sleep(2000);		
 	}
 }

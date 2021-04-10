@@ -20,7 +20,6 @@ public class ContactTest extends TestBase{
 	public void verifyContact() throws Exception {
 		home = new HomePage(getDriver());
 		home.navigateToContactPage();
-		Thread.sleep(1000);
 		contact = new ContactPage(getDriver());
 		contact.validateContactPage();
 
@@ -34,7 +33,6 @@ public class ContactTest extends TestBase{
 		home.navigateToContactPage();
 		contact = new ContactPage(getDriver());
 		contact.validateContactPageSubmit();
-		Thread.sleep(4000);
 
 	}
 

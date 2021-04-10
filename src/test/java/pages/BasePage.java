@@ -16,5 +16,14 @@ public class BasePage {
 	public BasePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
+	public WebElement waitElement(WebDriver driver, By element, long timeout){
+		return new WebDriverWait(driver, timeout)
+				.ignoring(NoSuchElementException.class)
+				.pollingEvery(Duration.ofMillis(500))
+				.until(ExpectedConditions.elementToBeClickable(element));
+	}
+
+	
 }
 

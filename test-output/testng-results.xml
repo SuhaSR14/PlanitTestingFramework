@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-09T12:52:10 BST" name="Suite1" finished-at="2021-04-09T12:52:32 BST" duration-ms="21574">
+  <suite started-at="2021-04-10T12:59:53 BST" name="Suite1" finished-at="2021-04-10T13:00:01 BST" duration-ms="8326">
     <groups>
     </groups>
-    <test started-at="2021-04-09T12:52:10 BST" name="PlanitTest" finished-at="2021-04-09T12:52:32 BST" duration-ms="21574">
+    <test started-at="2021-04-10T12:59:53 BST" name="PlanitTest" finished-at="2021-04-10T13:00:01 BST" duration-ms="8326">
       <class name="tests.ContactTest">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:10 BST" name="initDriver" finished-at="2021-04-09T12:52:12 BST" duration-ms="1983" status="PASS">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:53 BST" name="initDriver" finished-at="2021-04-10T12:59:55 BST" duration-ms="2055" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,39 +18,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:12 BST" name="launchApp" finished-at="2021-04-09T12:52:14 BST" duration-ms="2086" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:55 BST" name="launchApp" finished-at="2021-04-10T12:59:57 BST" duration-ms="1973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyContact()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:14 BST" name="verifyContact" finished-at="2021-04-09T12:52:16 BST" duration-ms="1686" status="PASS">
+        <test-method signature="verifyContact()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:57 BST" name="verifyContact" finished-at="2021-04-10T12:59:58 BST" duration-ms="855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContact -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:16 BST" name="launchApp" finished-at="2021-04-09T12:52:16 BST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:58 BST" name="launchApp" finished-at="2021-04-10T12:59:58 BST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyContactInvalidData()[pri:1, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:16 BST" name="verifyContactInvalidData" finished-at="2021-04-09T12:52:18 BST" duration-ms="2411" status="PASS">
+        <test-method signature="verifyContactInvalidData()[pri:1, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:58 BST" name="verifyContactInvalidData" finished-at="2021-04-10T12:59:58 BST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactInvalidData -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:18 BST" name="launchApp" finished-at="2021-04-09T12:52:18 BST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:58 BST" name="launchApp" finished-at="2021-04-10T12:59:58 BST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyCart()[pri:2, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:18 BST" name="verifyCart" finished-at="2021-04-09T12:52:24 BST" duration-ms="5609" status="PASS">
+        <test-method signature="verifyCart()[pri:2, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:58 BST" name="verifyCart" finished-at="2021-04-10T12:59:59 BST" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCart -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:24 BST" name="launchApp" finished-at="2021-04-09T12:52:24 BST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:59 BST" name="launchApp" finished-at="2021-04-10T12:59:59 BST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyContactSubmit()[pri:3, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:24 BST" name="verifyContactSubmit" finished-at="2021-04-09T12:52:31 BST" duration-ms="7018" status="PASS">
+        <test-method signature="verifyContactSubmit()[pri:3, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T12:59:59 BST" name="verifyContactSubmit" finished-at="2021-04-10T13:00:00 BST" duration-ms="1620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactSubmit -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-09T12:52:31 BST" name="cleanUp" finished-at="2021-04-09T12:52:32 BST" duration-ms="683" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.ContactTest@6b8ca3c8]" started-at="2021-04-10T13:00:00 BST" name="cleanUp" finished-at="2021-04-10T13:00:01 BST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

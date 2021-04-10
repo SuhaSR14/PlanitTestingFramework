@@ -44,10 +44,9 @@ public class CartPage extends BasePage {
 	{
 		funnyCowBuyBtn.click();
 		funnyCowBuyBtn.click();
-		Thread.sleep(3000);
 		fluffyBunnyBuyBtn.click();
 		cartBtn.click();
-		Thread.sleep(2000);
+		//system.out.println();
 		Assert.assertTrue(qtyBtn1.isDisplayed()== true);
 		Assert.assertTrue(funnyCowItem.isDisplayed()== true);
 		Assert.assertTrue(qtyBtn2.isDisplayed()== true);
